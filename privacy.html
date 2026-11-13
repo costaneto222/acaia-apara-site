@@ -22,13 +22,14 @@ footer { margin-top: 48px; font-size: 0.9rem; color: var(--muted); }
 <main>
 <nav><a href="index.html">Acaiá Apará</a> · <a href="privacidade.html">Português</a> · Privacy</nav>
 <h1>Privacy in Acaiá Apará</h1>
-<p>Version of October 31, 2026.</p>
+<p>Version of November 13, 2026.</p>
 <h2>In short</h2>
 <ul>
 <li>The game never asks for a name, email, phone number, photo or location.</li>
-<li>No selling of data and no tracking outside the game.</li>
-<li>Ads only when you ask: a video to continue after losing a level. Every ad is treated as content for children, with no personalization.</li>
-<li>There is a single purchase, to support the game, made through your device's store. It gives no in-game advantage.</li>
+<li>On first launch it asks only for your age band. The answer stays only on your device.</li>
+<li>No selling of data and no profile of you for ads.</li>
+<li>Ads only when you ask: a video to continue after losing a level. The game always requests non-personalized ads. For anyone who answers under 18, the ad is treated as child-directed content.</li>
+<li>There is a single purchase, to support the game, made through your device's store. It never changes score or ranking.</li>
 <li>The ranking, the crash reports and the ad use the internet.</li>
 <li>You can delete your online account and turn off the crash reports at any time.</li>
 </ul>
@@ -36,7 +37,10 @@ footer { margin-top: 48px; font-size: 0.9rem; color: var(--muted); }
 <ul>
 <li>Your progress: finished levels, drops, records, stamps and options.</li>
 <li>The log of your runs and the ghost fruits.</li>
-<li>None of this leaves the device, with one exception: when you challenge a friend, the fruit's path in that run goes along, to show as a ghost for them.</li>
+<li>Your age band: up to 11, 12 to 17 or 18 or older. The game asks on first launch and keeps only the band, never a birth date.</li>
+<li>The age band does not go to the ranking server, the crash reports or the log of your runs. The game uses it to know how to request the ad and which button the store shows.</li>
+<li>To fix the band: in Options, "Fix age", after an adult's confirmation (a sum). "Erase progress" does not erase this answer.</li>
+<li>None of this leaves the device, with two exceptions: your best runs go to the ranking (see below) and, when you challenge a friend, the fruit's path in that run goes along, to show as a ghost for them.</li>
 </ul>
 <h2>What goes to the ranking server</h2>
 <ul>
@@ -67,7 +71,7 @@ footer { margin-top: 48px; font-size: 0.9rem; color: var(--muted); }
 <h2>When the game crashes</h2>
 <ul>
 <li>If the game closes by itself or freezes, it sends an automatic report, so we can find out what happened.</li>
-<li>The report carries: the device model, the system and its version, the game version, the error and which screen or level the game was on, with the game's last actions (changing screens, starting or finishing a level).</li>
+<li>The report carries: the device model, the system and its version and other technical device data, the game version and the build type, the error and which screen or level the game was on, with the game's last actions (changing screens, starting or finishing a level).</li>
 <li>It does not carry your name, email, phone number, location, a picture of the screen, your device's code or your friend code. The IP address is not kept.</li>
 <li>The service Sentry receives it, on servers in the European Union. Each report stays for 30 days and then goes away.</li>
 <li>To turn it off: the "Send crash reports" switch in Options.</li>
@@ -75,9 +79,13 @@ footer { margin-top: 48px; font-size: 0.9rem; color: var(--muted); }
 <h2>When you ask for a video to continue</h2>
 <ul>
 <li>The game only shows an ad when you tap "Watch a video and continue" after losing a level. There are no banners, nothing between screens and nothing at launch.</li>
-<li>The video is served by Google AdMob. To serve, measure and prevent fraud in the ad, it receives identifiers of your device and technical data: model, system, language, game version, IP address and the fact that the ad was requested, shown and watched.</li>
-<li>The game tags every ad request as content for children and for people under the age of consent, with a maximum rating of G. Because of that, the ad is not personalized, the device's advertising identifier is not sent and there is no tracking across apps.</li>
-<li>Where the law requires consent, Google's consent form appears once, before the first ad. Without consent, the game goes on as usual, just without the video offer.</li>
+<li>The video is served by Google AdMob. Before you answer the age band, the game does not talk to it. After you answer, the game contacts Google AdMob at every launch to keep a video ready, even if you never ask for one and even if you own the Golden Seed.</li>
+<li>To serve, measure and prevent fraud in the ad, Google AdMob receives identifiers of your device and technical data: model, system, language, game version, IP address and the fact that the ad was requested, shown and watched.</li>
+<li>At every age, the game requests non-personalized ads, with a maximum rating of G.</li>
+<li>Up to 11 and 12 to 17: the ad request is tagged as child-directed content and for people under the age of consent. Google states that, with this tag, the device's advertising identifier is not sent. With no answer stored, the game requests no ad.</li>
+<li>18 or older: the ad is for a general audience, without the child-directed tag. Google AdMob may receive identifiers of the device, including the advertising identifier on Android. They are used to deliver and measure the ad and to prevent fraud, not to build a profile.</li>
+<li>On iPhone, the game does not ask for tracking permission and does not read Apple's advertising identifier.</li>
+<li>Where the law requires consent, Google's consent form appears once, right after the age answer. For players under 18 the request is tagged as under the age of consent, and Google shows no form. Until the form is answered, the game requests no ad and goes on as usual, just without the video offer. After a refusal, Google serves only what your choice allows.</li>
 <li>Owners of the Golden Seed keep continuing without a video.</li>
 <li>More about Google: its privacy policy at <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> and "How Google uses information from sites or apps that use our services" at <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a>.</li>
 </ul>
@@ -85,21 +93,23 @@ footer { margin-top: 48px; font-size: 0.9rem; color: var(--muted); }
 <ul>
 <li>The Golden Seed is a one-time purchase, made and charged by your device's store (Google Play or App Store).</li>
 <li>The game never sees or stores a card, an address or any payment data. That stays with the store.</li>
-<li>On the device, the game only keeps whether you own the Golden Seed or not. None of it goes to the ranking server.</li>
-<li>"Already bought" asks the device's store whether the purchase exists, to give the Golden Seed back after a reinstall or on a new device.</li>
-<li>The purchase sits behind an age question and an adult confirmation. Only the chosen age band (up to 11, 12 to 17, 18 or more) stays on the device, so the store knows which button to show; it is never sent.</li>
+<li>On the device, the game only keeps whether you own the Golden Seed or not. When you buy, the game tells our server once, to count founder spots: the store's purchase code is sent and the server keeps only a fingerprint of it, tied to no account or device.</li>
+<li>"I already bought it" asks the device's store whether the purchase exists, to give the Golden Seed back after a reinstall or on a new device.</li>
+<li>The purchase sits behind an adult's confirmation (a sum), at every age. With the age band up to 11 or 12 to 17, the store button says "Ask an adult".</li>
 <li>Refunds are requested in the store itself (Google Play or App Store), under its rules.</li>
 </ul>
 <h2>Children</h2>
 <ul>
 <li>The game is for all ages.</li>
-<li>It asks for no personal data, has no chat and no free text.</li>
+<li>It asks only for the age band. It asks for no name, email or phone number, and has no chat and no free text.</li>
 <li>Friends only join through the friend code.</li>
-<li>Every ad is treated as content for children, and every purchase goes through an adult's confirmation.</li>
+<li>Children and teenagers never get a personalized ad. With the age band up to 11 or 12 to 17, every ad request is tagged as child-directed content.</li>
+<li>Every purchase goes through an adult's confirmation, and the age band only changes after that same confirmation.</li>
 </ul>
 <h2>Contact</h2>
 <ul>
 <li>Questions or requests: costanetoappstore@gmail.com.</li>
+<li>Saw an inappropriate ad? Tell us at this same email, with the day and what it showed.</li>
 </ul>
 <footer>Acaiá Apará: O Caminho da Semente! · a game by Costa Neto · this page is generated from the text shown in the game.</footer>
 </main>
